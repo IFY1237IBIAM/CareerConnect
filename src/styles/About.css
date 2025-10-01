@@ -1,0 +1,67 @@
+/* About.css */
+
+.about-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #f9faff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.about-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1e3a8a; /* deep blue */
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-history,
+.about-mission,
+.about-vision {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.about-subtitle {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2563eb; /* blue accent */
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #dbeafe; /* subtle underline */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.about-values {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  font-size: 1.05rem;
+}
+
+.about-values li {
+  background-color: #e0f2fe;
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.about-values li::before {
+  content: "✔️";
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .about-values {
+    grid-template-columns: 1fr 1fr;
+  }
+}

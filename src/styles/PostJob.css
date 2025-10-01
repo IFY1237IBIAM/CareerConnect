@@ -1,0 +1,49 @@
+.post-job-page {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f4f9ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.post-job-page h2 {
+  text-align: center;
+  color: #0077b6;
+  margin-bottom: 20px;
+}
+
+.post-job-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-job-form input,
+.post-job-form select,
+.post-job-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.post-job-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.post-job-form button {
+  padding: 12px;
+  background-color: #00b4d8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.post-job-form button:hover {
+  background-color: #0096c7;
+}
