@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/CareerConnect/static/css/main.477ad29f.css",
+    "main.js": "/CareerConnect/static/js/main.9d577495.js",
+    "static/js/453.a2244578.chunk.js": "/CareerConnect/static/js/453.a2244578.chunk.js",
+    "static/media/job-hero.webp": "/CareerConnect/static/media/job-hero.68a3418bd4bdbe7c3786.webp",
+    "index.html": "/CareerConnect/index.html",
+    "main.477ad29f.css.map": "/CareerConnect/static/css/main.477ad29f.css.map",
+    "main.9d577495.js.map": "/CareerConnect/static/js/main.9d577495.js.map",
+    "453.a2244578.chunk.js.map": "/CareerConnect/static/js/453.a2244578.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.477ad29f.css",
+    "static/js/main.9d577495.js"
+  ]
+}
